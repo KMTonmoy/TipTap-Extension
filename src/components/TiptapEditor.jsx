@@ -51,7 +51,7 @@ const TiptapEditor = () => {
                     <FaListOl />
                 </button>
 
-                {/* Text Alignment Buttons */}
+
                 <button className="toolbar-btn" onClick={() => editor.chain().focus().setTextAlign('left').run()}>
                     <FaAlignLeft />
                 </button>
